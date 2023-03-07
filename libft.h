@@ -6,7 +6,7 @@
 /*   By: brheaume <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/24 09:49:30 by brheaume          #+#    #+#             */
-/*   Updated: 2022/11/04 10:03:46 by brheaume         ###   ########.fr       */
+/*   Updated: 2023/03/07 13:46:05 by brheaume         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ int		ft_toupper(int c);
 int		ft_atoi(const char *src);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
+void	*ft_xfree(void *src);
 void	ft_bzero(void *s, size_t n);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putstr_fd(char *s, int fd);
@@ -51,6 +52,7 @@ char	*ft_strchr(const char *src, int find);
 char	*ft_strrchr(const char *src, int find);
 char	*ft_strjoin(const char *s1, const char *s2);
 char	*ft_strtrim(const char *s1, const char *set);
+char	*ft_strcombine(const char *s1, const char *s2);
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char));
 char	*ft_substr(const char *src, unsigned int start, size_t len);
 char	*ft_strnstr(const char *hay, const char *needle, size_t len);
