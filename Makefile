@@ -6,7 +6,7 @@
 #    By: brheaume <marvin@42quebec.com>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/21 10:30:28 by brheaume          #+#    #+#              #
-#    Updated: 2023/04/07 11:06:32 by brheaume         ###   ########.fr        #
+#    Updated: 2023/04/25 14:31:09 by brheaume         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,6 +46,7 @@ SRC = 	ft_isalpha.c \
 		ft_putstr_fd.c \
 		ft_putendl_fd.c \
 		ft_putnbr_fd.c \
+		ft_putnbendl_fd.c \
 		ft_xfree.c \
 		ft_strcombine.c \
 		ft_isstrdigit.c \
