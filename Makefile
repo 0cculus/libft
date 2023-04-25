@@ -6,7 +6,7 @@
 #    By: brheaume <marvin@42quebec.com>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/21 10:30:28 by brheaume          #+#    #+#              #
-#    Updated: 2023/03/09 13:10:40 by brheaume         ###   ########.fr        #
+#    Updated: 2023/04/07 11:06:32 by brheaume         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,7 +48,9 @@ SRC = 	ft_isalpha.c \
 		ft_putnbr_fd.c \
 		ft_xfree.c \
 		ft_strcombine.c \
-		ft_isstrdigit.c
+		ft_isstrdigit.c \
+		get_next_line.c \
+		get_next_line_utils.c
 
 OBJ = ${SRC:.c=.o}
 

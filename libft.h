@@ -6,7 +6,7 @@
 /*   By: brheaume <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/24 09:49:30 by brheaume          #+#    #+#             */
-/*   Updated: 2023/03/09 13:09:49 by brheaume         ###   ########.fr       */
+/*   Updated: 2023/04/07 11:04:46 by brheaume         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <unistd.h>
 # include <stdlib.h>
+# include "get_next_line.h"
 
 # ifndef INT_MIN
 #  define INT_MIN -2147483648
