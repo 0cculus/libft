@@ -6,9 +6,11 @@
 /*   By: brheaume <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/25 14:28:42 by brheaume          #+#    #+#             */
-/*   Updated: 2023/04/25 14:31:24 by brheaume         ###   ########.fr       */
+/*   Updated: 2023/04/25 14:34:28 by brheaume         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	ft_putnbendl_fd(int nb, int fd)
 {
