@@ -6,7 +6,7 @@
 /*   By: brheaume <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 09:19:03 by brheaume          #+#    #+#             */
-/*   Updated: 2023/05/23 09:26:21 by brheaume         ###   ########.fr       */
+/*   Updated: 2023/05/23 10:08:02 by brheaume         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 # endif
 # ifndef OPEN_MAX
 #  define OPEN_MAX 256
-# ifndef
+# endif
 
 void	*gnl_xfree(char *src);
 char	*get_next_line(int fd);
