@@ -6,7 +6,7 @@
 /*   By: brheaume <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 09:19:03 by brheaume          #+#    #+#             */
-/*   Updated: 2023/04/11 16:50:52 by brheaume         ###   ########.fr       */
+/*   Updated: 2023/05/23 09:26:21 by brheaume         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,9 @@
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 120
 # endif
+# ifndef OPEN_MAX
+#  define OPEN_MAX 256
+# ifndef
 
 void	*gnl_xfree(char *src);
 char	*get_next_line(int fd);
