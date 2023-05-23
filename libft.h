@@ -6,7 +6,7 @@
 /*   By: brheaume <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/24 09:49:30 by brheaume          #+#    #+#             */
-/*   Updated: 2023/04/25 14:30:48 by brheaume         ###   ########.fr       */
+/*   Updated: 2023/05/23 09:25:32 by brheaume         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ int		ft_isascii(int c);
 int		ft_isprint(int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+int		ft_absolute(int nb);
 int		ft_atoi(const char *src);
 int		ft_isstrdigit(const char *src);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);

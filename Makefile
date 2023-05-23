@@ -6,7 +6,7 @@
 #    By: brheaume <marvin@42quebec.com>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/21 10:30:28 by brheaume          #+#    #+#              #
-#    Updated: 2023/04/25 14:31:09 by brheaume         ###   ########.fr        #
+#    Updated: 2023/05/23 09:42:06 by brheaume         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,6 +50,7 @@ SRC = 	ft_isalpha.c \
 		ft_xfree.c \
 		ft_strcombine.c \
 		ft_isstrdigit.c \
+		ft_absolute.c \
 		get_next_line.c \
 		get_next_line_utils.c
 
